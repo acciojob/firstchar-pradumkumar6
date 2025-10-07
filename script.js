@@ -1,7 +1,7 @@
 function firstChar(text) {
   // your code here
 	// Trim leading spaces and return the first character if exists
-  const trimmed = str.trimStart();
+  const trimmed = text.trimStart();
   return trimmed.length > 0 ? trimmed[0] : '';
 }
 
